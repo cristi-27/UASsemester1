@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+          body{
+            margin: auto;
+            padding: auto;
+            background-color: white; 
+        }
+         .nav {
+            background-color: bisque;
+            overflow: hidden;
+
+        }
+        .nav a{
+            text-decoration: none;
+            color: rgb(9, 109, 101);
+            padding: 14px 20px;
+            display: block;
+            float: left;
+        }
+        .nav a:hover{
+            color:blue;
+             background-color: rgb(145, 12, 52);
+
+        }
+        .active{
+            background-color: rgb(201, 174, 23);
+        }
+        #header{
+            width:  100%;
+            height: 400px;
+            background-color: bisque;
+            background-image: url(gambar/EXO-Banner.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content{
+            width:  100%;
+            height: auto;
+            background-color:white;
+            padding: 20px;
+            box-sizing: border-box;
+        
+        }
+
+         .content p {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            line-height: 1.8em;
+            text-align: justify;
+
+         }
+
+        #footer{
+            width:  100%;
+            height: 50px;
+            text-align: center;
+            color:azure;
+            background-color: rgb(53, 65, 56);
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div cclass="nav">
+        <a href="Home.html" >Home</a>
+        <a href="Profile.html" class="active">Profile</a>
+        <a href="Galery.html" >Galery</a>
+        <a href="Contact.html" >Contact</a>
+    </div>
+    
+    <div class="content">
+    <!----Content awal---->
+    <h1>EXO Profile <b>We Are One</b></h1>
+
+    <div class="container mt-4">
+  <div class="row">
+    <div class="col- 12">
+      
+        <div class="card mb-3 shadow">
+            <div class="row g-0 align-items-center">
+     <!--Gambar--> 
+     <div class="col -md-4 text-center">
+        <img src="gambar/EXO-.jpeg" class="card-img-top" alt="EXO">
+     </div>
+      <!--text-->
+      <div class="col -md-8">
+        <div class="card-body">
+    <h2 class="card-title"><b>We Are One</b></h2>
+    <p class="card-text"> EXO (엑소) adalah grup boyband Korea Selatan beranggotakan 8 orang yang saat ini terdiri dari: Suho , Xiumin ,  Baekhyun , Chen ,  Chanyeol , DO , Kai, dan Sehun (menurut situs web resmi SM). .</p><br>
+     <p>Arti Nama Grup: Singkatan dari EXOplanet.<br>
+     Salam Resmi: “Kami SATU! Halo, kami EXO!”<br>
+     Nama Fandom Resmi EXO: EXO-L<br>
+     Arti Nama Fandom: Huruf “L” melambangkan cinta<br>
+     Warna Resmi EXO: Perak (Tidak diumumkan secara resmi, tetapi digunakan pada merchandise resmi grup, unggahan peringatan ulang tahun, dll.)
+    </p><br>
+    <p>Akun media sosial resmi:<br>
+        Situs web: smentertainment.com<br>
+        Instagram: @weareone.exo<br>
+        X: @weareoneEXO<br>
+        YouTube: EXO Channel<br>
+        Facebook: weareoneEXO<br>
+        vLive: EXO channel
+    </p>
+     </div>
+   </div>
+</div>
+
+ </div>
+    </div>
+      </div>
+        </div>
+          </div>
+
+        </div>
+    </div>
+
+
+    <!----Content ahir---->
+
+    </div>
+    <div id="footer">
+        Copyright@_Theocristi Jelita Dodengo | 251011700242 | 01SIFP004
+    </div>
+
+
+
+    <!---JS Bootstrap--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!---JS Waktu--->
+    <script>
+         var waktu = new Date();
+        document.write(waktu);
+        document.write("<br>")
+        var jam = waktu.getHours();
+        var menit = waktu.getMinutes();
+        document.write(jam);
+        document.write(":"+menit);
+        document.write("<br>");
+    </script>
+  </body>
+</html>
